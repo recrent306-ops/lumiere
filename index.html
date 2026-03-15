@@ -1,0 +1,163 @@
+<!-- Made by Yashar Qurbanov -->
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMIÈRE | Haute Gastronomie</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="container nav">
+            <a href="#" class="logo">LUMIÈRE</a>
+            
+            <ul class="nav__list">
+                <li><a href="#special" class="nav__link" data-i18n="nav_special">Акции</a></li>
+                <li><a href="#starters" class="nav__link" data-i18n="nav_starters">Закуски</a></li>
+                <li><a href="#mains" class="nav__link" data-i18n="nav_mains">Горячее</a></li>
+                <li><a href="#drinks" class="nav__link" data-i18n="nav_drinks">Напитки</a></li>
+            </ul>
+
+            <div class="nav-controls">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="az">AZ</button>
+                </div>
+            </div>
+
+                    <button class="menu-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero__content reveal">
+            <h1 class="hero__title" data-i18n="hero_title">Искусство вкуса</h1>
+            <p class="hero__subtitle" data-i18n="hero_sub">Сезонное меню 2026</p>
+        </div>
+    </section>
+
+    <section class="special" id="special">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title" data-i18n="chef_choice">Chef's Choice</h2>
+            </div>
+            <div class="carousel">
+                <div class="carousel__track">
+                    <div class="carousel__item">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Special">
+                        <h3 data-i18n="spec1">Сет "Дары моря"</h3>
+                    </div>
+                    <div class="carousel__item">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" alt="Special">
+                        <h3 data-i18n="spec2">Веган-Боул</h3>
+                    </div>
+                    <div class="carousel__item">
+                        <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80" alt="Special">
+                        <h3 data-i18n="spec3">Трюфельный десерт</h3>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="menu-block" id="starters">
+            <h2 class="menu-block__title reveal" data-i18n="nav_starters">Закуски</h2>
+            <div class="menu-grid">
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="s1_t">Брускетта с томатами</span><span class="price">450</span></div>
+                    <p data-i18n="s1_d">Чиабатта на гриле, свежие томаты, базилик.</p>
+                </article>
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="s2_t">Карпаччо из говядины</span><span class="price">890</span></div>
+                    <p data-i18n="s2_d">Мраморная говядина, пармезан, бальзамик.</p>
+                </article>
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="s3_t">Салат Нисуаз</span><span class="price">720</span></div>
+                    <p data-i18n="s3_d">Тунец прожарки Rare, яйцо пашот, анчоусы.</p>
+                </article>
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="s4_t">Паштет из печени</span><span class="price">540</span></div>
+                    <p data-i18n="s4_d">Луковый конфитюр, поджаренный багет.</p>
+                </article>
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="s5_t">Сырное плато</span><span class="price">1200</span></div>
+                    <p data-i18n="s5_d">Четыре вида крафтовых сыров, мед, орехи.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="menu-block" id="mains">
+            <h2 class="menu-block__title reveal" data-i18n="nav_mains">Горячее</h2>
+            <div class="menu-grid">
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="m1_t">Стейк Рибай</span><span class="price">3200</span></div>
+                    <p data-i18n="m1_d">Премиальная говядина, соус перечный.</p>
+                </article>
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="m2_t">Утиная грудка</span><span class="price">1100</span></div>
+                    <p data-i18n="m2_d">Пюре из сельдерея, ягодный соус.</p>
+                </article>
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="m3_t">Ризотто с грибами</span><span class="price">850</span></div>
+                    <p data-i18n="m3_d">Белые грибы, трюфельное масло.</p>
+                </article>
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="m4_t">Дорадо на гриле</span><span class="price">1400</span></div>
+                    <p data-i18n="m4_d">Лимон, тимьян, овощи гриль.</p>
+                </article>
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="m5_t">Паста Карбонара</span><span class="price">780</span></div>
+                    <p data-i18n="m5_d">Гуанчиале, желток, пекорино романо.</p>
+                </article>
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="m6_t">Осьминог по-ливийски</span><span class="price">2100</span></div>
+                    <p data-i18n="m6_d">Молодой картофель, соус ромеско.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="menu-block" id="drinks">
+            <h2 class="menu-block__title reveal" data-i18n="nav_drinks">Напитки</h2>
+            <div class="menu-grid">
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="d1_t">Лимонад Малина-Юдзу</span><span class="price">400</span></div>
+                    <p>400мл / <span data-i18n="d1_d">Домашнего приготовления.</span></p>
+                </article>
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="d2_t">Эспрессо Тоник</span><span class="price">350</span></div>
+                    <p data-i18n="d2_d">Классический освежающий микс.</p>
+                </article>
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="d3_t">Авторский чай</span><span class="price">550</span></div>
+                    <p>600мл / <span data-i18n="d3_d">Облепиха и груша.</span></p>
+                </article>
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="d4_t">Матча Латте</span><span class="price">420</span></div>
+                    <p data-i18n="d4_d">На кокосовом молоке.</p>
+                </article>
+                <article class="item-card reveal">
+                    <div class="item-card__header"><span data-i18n="d5_t">Вино по бокалам</span><span class="price">650</span></div>
+                    <p>150мл / <span data-i18n="d5_d">Сухое белое или красное.</span></p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer"><p>LUMIÈRE © 2026. Ул. Гастрономическая, 12</p></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Made by Yashar Qurbanov -->
